@@ -1,14 +1,40 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
-import {Day1} from "./components/Day1";
+import { Day1 } from "./components/Day1";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Day2 from "./components/Day2";
+import Day3 from "./components/DAy3";
+import Day4 from "./components/Day4";
+import Day6 from "./components/Day6";
+import Day5_test from "./components/Day5_test";
 
 const componentList = [
   {
     component: Day1,
     name: "🚀 Navigating the Digital Universe with React Router 🌌",
   },
+  {
+    component: Day2,
+    name: "🎨 Welcome to the World of React Icons! 🚀",
+  },
+  {
+    component: Day3,
+    name: "🎭🌟 Welcome to the grand theater of web development, where React Helmet takes center stage as the master costume designer! 🌟🎭",
+  },
+  {
+    component: Day4,
+    name: "🪄✨ Welcome to the enchanted world of React Bootstrap! 🪄✨",
+  },
+  {
+    component: Day5_test,
+    name: "🛡️ Welcome to the Realm of React Testing Library! 🛡️",
+  },
+  {
+    component: Day6,
+    name: "🎵 The React Redux Symphony: Achieving State Management Harmony 🎵",
+  },
+
   // Add more components here if needed
 ];
 
