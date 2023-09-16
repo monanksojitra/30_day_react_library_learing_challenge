@@ -10,7 +10,6 @@ import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
 function Day4() {
   return (
     <>
@@ -82,7 +81,7 @@ function Day4() {
           <div className="my-3">
             <Card>
               <Card.Header>Quotes</Card.Header>
-              <Card.Body >
+              <Card.Body>
                 <blockquote className="blockquote my-0">
                   <p>
                     {" "}

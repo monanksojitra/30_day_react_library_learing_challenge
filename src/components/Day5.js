@@ -19,8 +19,6 @@ function Day5({ children }) {
   );
 }
 
-export default Day5;
-
 test("shows the children when the checkbox is checked", () => {
   const testMessage = "Test Message";
   render(<Day5>{testMessage}</Day5>);
