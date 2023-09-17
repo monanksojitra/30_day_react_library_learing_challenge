@@ -8,6 +8,10 @@ import Day3 from "./components/DAy3";
 import Day4 from "./components/Day4";
 import Day6 from "./components/Day6";
 import Day5_test from "./components/Day5_test";
+import Day7 from "./components/Day7";
+import Day8 from "./components/Day8";
+import Day9 from "./components/Day9";
+import Day10 from "./components/Day10";
 
 const componentList = [
   {
@@ -33,6 +37,22 @@ const componentList = [
   {
     component: Day6,
     name: "🎵 The React Redux Symphony: Achieving State Management Harmony 🎵",
+  },
+  {
+    component: Day7,
+    name: "🪄✨ Explore the Magical World of React Development with React Hookstate! 🪄✨",
+  },
+  {
+    component: Day8,
+    name: "🚀✨ Discover the Future of State Management with React Recoil! 🚀✨",
+  },
+  {
+    component: Day9,
+    name: "🪐⚡ Explore the React Universe with React Jotai: A Dynamic Force in State Management! ⚛️🪐",
+  },
+  {
+    component: Day10,
+    name: "🛡️⚔️ Harness the Power of React Rematch: Your Trusty Ally in State Management Battles! ⚛️🛡️",
   },
 
   // Add more components here if needed

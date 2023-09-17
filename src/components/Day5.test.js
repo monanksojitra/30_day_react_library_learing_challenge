@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "@testing-library/jest-dom";
 import { render, fireEvent, screen } from "@testing-library/react";
 
 function Day5({ children }) {
@@ -18,17 +17,28 @@ function Day5({ children }) {
     </div>
   );
 }
+test("renders the component with a checkbox", () => {
+  render(<Day5 />);
+  const checkbox = screen.getByRole("checkbox");
+  expect(checkbox).toBeInTheDocument();
+});
+
+test("initially hides the children", () => {
+  render(<Day5>Test Message</Day5>);
+  const message = screen.queryByText("Test Message");
+  expect(message).not.toBeInTheDocument();
+});
 
 test("shows the children when the checkbox is checked", () => {
-  const testMessage = "Test Message";
-  render(<Day5>{testMessage}</Day5>);
+  render(<Day5>Test Message</Day5>);
+  const checkbox = screen.getByRole("checkbox");
 
   // Initially, the message should not be visible.
-  expect(screen.queryByText(testMessage)).toBeNull();
+  expect(screen.queryByText("Test Message")).not.toBeInTheDocument();
 
   // Click the checkbox to show the message.
-  fireEvent.click(screen.getByLabelText(/show/i));
+  fireEvent.click(checkbox);
 
   // After clicking, the message should be visible.
-  expect(screen.getByText(testMessage)).toBeInTheDocument();
+  expect(screen.getByText("Test Message")).toBeInTheDocument();
 });
