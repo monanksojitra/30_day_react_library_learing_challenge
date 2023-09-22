@@ -45,9 +45,6 @@ function Day9() {
       <div className="row justify-content-center">
         <div className="col-md-6 mx-auto">
           <Card>
-            <Card.Header>
-              <Card.Title>Day9</Card.Title>
-            </Card.Header>
             <Card.Body>
               <Card.Text className="text-center">
                 <h1>

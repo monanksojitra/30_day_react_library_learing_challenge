@@ -12,6 +12,11 @@ import Day7 from "./components/Day7";
 import Day8 from "./components/Day8";
 import Day9 from "./components/Day9";
 import Day10 from "./components/Day10";
+import Day11 from "./components/Day11";
+import Day12 from "./components/Day12";
+import Day13 from "./components/Day13";
+import Day14 from "./components/Day14";
+import Day15 from "./components/Day15";
 
 const componentList = [
   {
@@ -54,6 +59,23 @@ const componentList = [
     component: Day10,
     name: "🛡️⚔️ Harness the Power of React Rematch: Your Trusty Ally in State Management Battles! ⚛️🛡️",
   },
+  {
+    component: Day11,
+    name: "🎨✨ Mastering Animation Magic with React Framer Motion! ✨🎨",
+  },
+  // {
+  //   component: Day12,
+  //   name: "🎨🧰 Crafting Stunning Interfaces with Material-UI! 🧰🎨",
+  // },
+  // {
+  //   component: Day13,
+  //   name: "🎨🔮 Weaving Visual Enchantment with Styled-components! 🔮🎨",
+  // },
+  // {
+  //   component: Day14,
+  //   name: "🎨🏛️ Crafting Majestic Interfaces with Ant Design! 🏛️🎨",
+  // },
+ 
 
   // Add more components here if needed
 ];
