@@ -63,19 +63,22 @@ const componentList = [
     component: Day11,
     name: "🎨✨ Mastering Animation Magic with React Framer Motion! ✨🎨",
   },
-  // {
-  //   component: Day12,
-  //   name: "🎨🧰 Crafting Stunning Interfaces with Material-UI! 🧰🎨",
-  // },
-  // {
-  //   component: Day13,
-  //   name: "🎨🔮 Weaving Visual Enchantment with Styled-components! 🔮🎨",
-  // },
-  // {
-  //   component: Day14,
-  //   name: "🎨🏛️ Crafting Majestic Interfaces with Ant Design! 🏛️🎨",
-  // },
- 
+  {
+    component: Day12,
+    name: "🎨🧰 Crafting Stunning Interfaces with Material-UI! 🧰🎨",
+  },
+  {
+    component: Day13,
+    name: "🎨🔮 Weaving Visual Enchantment with Styled-components! 🔮🎨",
+  },
+  {
+    component: Day14,
+    name: "🎨🏛️ Crafting Majestic Interfaces with Ant Design! 🏛️🎨",
+  },
+  {
+    component: Day15,
+    name: "🎨🛡️ Crafting Beautiful and Accessible UIs with Chakra UI! 🛡️🎨",
+  },
 
   // Add more components here if needed
 ];

@@ -22,7 +22,7 @@ const Day14 = () => {
       <Card style={{ width: 300, marginTop: 16 }} loading={loading}>
         <Meta
           avatar={
-            <Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel&key=1" />
+            <Avatar src="https://mdbootstrap.com/img/new/avatars/7.jpg" />
           }
           title="Card title-1"
           description="This is the description"
@@ -39,7 +39,7 @@ const Day14 = () => {
         <Skeleton loading={loading} avatar active>
           <Meta
             avatar={
-              <Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel&key=2" />
+              <Avatar src="https://mdbootstrap.com/img/new/avatars/6.jpg" />
             }
             title="Card title-2"
             description="This is the description"
