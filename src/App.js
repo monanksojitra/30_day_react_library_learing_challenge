@@ -17,6 +17,8 @@ import Day12 from "./components/Day12";
 import Day13 from "./components/Day13";
 import Day14 from "./components/Day14";
 import Day15 from "./components/Day15";
+import Day16 from "./components/Day16";
+import Day17 from "./components/Day17";
 
 const componentList = [
   {
@@ -78,6 +80,14 @@ const componentList = [
   {
     component: Day15,
     name: "🎨🛡️ Crafting Beautiful and Accessible UIs with Chakra UI! 🛡️🎨",
+  },
+  {
+    component: Day16,
+    name: "Unleash the Data Dragon with Axios! 🐉",
+  },
+  {
+    component: Day17,
+    name: " 🚀 Elevate Your Data Management Game with React Query! 🚀",
   },
 
   // Add more components here if needed

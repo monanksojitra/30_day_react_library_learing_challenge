@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import {
   Box,
-  Button,
   Card,
   CardBody,
   CardFooter,
@@ -13,11 +12,10 @@ import {
   Text,
 } from "@chakra-ui/react";
 import axios from "axios";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const CarouselComponent = () => {
+const Day15 = () => {
   const [news, setNews] = useState([]);
   const settings = {
     dots: true,
@@ -44,7 +42,7 @@ const CarouselComponent = () => {
 
   return (
     <ChakraProvider>
-      <Box p={4}>
+      <Box p={2}>
         <Slider {...settings}>
           {news.map((article, index) => (
             <Card
@@ -74,7 +72,12 @@ const CarouselComponent = () => {
                 </CardBody>
 
                 <CardFooter>
-                  <a className="btn btn-primary" href={article.url} variant="solid" colorScheme="blue">
+                  <a
+                    className="btn btn-primary"
+                    href={article.url}
+                    variant="solid"
+                    colorScheme="blue"
+                  >
                     Read More
                   </a>
                 </CardFooter>
@@ -87,4 +90,4 @@ const CarouselComponent = () => {
   );
 };
 
-export default CarouselComponent;
+export default Day15;
