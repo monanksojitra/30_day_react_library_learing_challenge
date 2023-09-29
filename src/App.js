@@ -19,6 +19,9 @@ import Day14 from "./components/Day14";
 import Day15 from "./components/Day15";
 import Day16 from "./components/Day16";
 import Day17 from "./components/Day17";
+import Day18 from "./components/Day18";
+import Day19 from "./components/Day19";
+import Day20 from "./components/Day20";
 
 const componentList = [
   {
@@ -88,6 +91,18 @@ const componentList = [
   {
     component: Day17,
     name: " 🚀 Elevate Your Data Management Game with React Query! 🚀",
+  },
+  {
+    component: Day18,
+    name: "   ✨ Synchronize Your Data Seamlessly with SWR! ✨",
+  },
+  {
+    component: Day19,
+    name: " 📋 Craft Forms with Ease Using Formik! 📋",
+  },
+  {
+    component: Day20,
+    name: "  📜 Validate Forms Gracefully with Yup! 📜",
   },
 
   // Add more components here if needed

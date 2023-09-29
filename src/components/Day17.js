@@ -82,12 +82,12 @@ const Data = () => {
 
   return (
     <div>
-      <h3>Games List</h3>
+      {/* <h3>Games List</h3>
       <Slider {...settings}>
         {data.gamesListData.map((data, index) => (
           <CardComponent key={index} data={data} />
         ))}
-      </Slider>
+      </Slider> */}
       {/* <Slider {...settings}>
         {data.gamesByPlatformData.map((data, index) => (
           <CardComponent key={index} data={data} />
