@@ -22,6 +22,11 @@ import Day17 from "./components/Day17";
 import Day18 from "./components/Day18";
 import Day19 from "./components/Day19";
 import Day20 from "./components/Day20";
+import Day21 from "./components/Day21";
+import Day22 from "./components/Day22";
+import Day23 from "./components/Day23";
+import Day24 from "./components/Day24";
+import Day25 from "./components/Day25";
 
 const componentList = [
   {
@@ -104,7 +109,26 @@ const componentList = [
     component: Day20,
     name: "  📜 Validate Forms Gracefully with Yup! 📜",
   },
-
+  {
+    component: Day21,
+    name: "📊🎨 Mastering Data Visualization with Chart.js! 🎨📊",
+  },
+  {
+    component: Day22,
+    name: "Dive into the Art of Visualization with D3.js! 🎨",
+  },
+  {
+    component: Day23,
+    name: "Reinvent Your Charts with Recharts! 📊",
+  },
+  {
+    component: Day24,
+    name: "Achieve Victory with React Data Visualization! 🏆",
+  },
+  {
+    component: Day25,
+    name: "Zoom into Data with React-Vis! 🔍",
+  },
   // Add more components here if needed
 ];
 
