@@ -4,6 +4,7 @@ import axios from "axios";
 
 const queryClient = new QueryClient();
 const NewsList = () => {
+
   const { data, error, isLoading } = useQuery("news", fetchNews);
 
   async function fetchNews() {
@@ -30,7 +31,10 @@ const NewsList = () => {
             <div className="col">
               <div className="card mb-3">
                 <img
-                  src={article.urlToImage}
+                  src={
+                    article.urlToImage ||
+                    "https://bitsofco.de/img/Qo5mfYDE5v-350.png"
+                  }
                   className="card-img-top"
                   alt={article.title}
                   height={250}

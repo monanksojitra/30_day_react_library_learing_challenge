@@ -7,7 +7,8 @@ function Day26() {
 
   useEffect(() => {
     // Replace 'ws://localhost:8080' with your WebSocket server URL
-    const ws = new WebSocket("ws://localhost:8080");
+    const ws = new WebSocket("ws://127.0.0.1:8080");
+
 
     ws.onopen = () => {
       console.log("WebSocket connection opened");
