@@ -5,6 +5,7 @@ const Day28 = () => {
   const [postData, setPostData] = useState(null);
   const [loading, setLoading] = useState(true);
 
+
   useEffect(() => {
     const fetchData = async () => {
       try {

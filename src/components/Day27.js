@@ -18,6 +18,7 @@ function StudentList() {
     });
   }, []);
 
+
   return (
     <div>
       <h3 className="mb-4">Student List</h3>

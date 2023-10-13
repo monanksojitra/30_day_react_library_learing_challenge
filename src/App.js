@@ -33,121 +33,121 @@ import Day28 from "./components/Day28";
 import Day29 from "./components/Day29";
 
 const componentList = [
-  // {
-  //   component: Day1,
-  //   name: "🚀 Navigating the Digital Universe with React Router 🌌",
-  // },
-  // {
-  //   component: Day2,
-  //   name: "🎨 Welcome to the World of React Icons! 🚀",
-  // },
-  // {
-  //   component: Day3,
-  //   name: "🎭🌟 Welcome to the grand theater of web development, where React Helmet takes center stage as the master costume designer! 🌟🎭",
-  // },
-  // {
-  //   component: Day4,
-  //   name: "🪄✨ Welcome to the enchanted world of React Bootstrap! 🪄✨",
-  // },
-  // {
-  //   component: Day5_test,
-  //   name: "🛡️ Welcome to the Realm of React Testing Library! 🛡️",
-  // },
-  // {
-  //   component: Day6,
-  //   name: "🎵 The React Redux Symphony: Achieving State Management Harmony 🎵",
-  // },
-  // {
-  //   component: Day7,
-  //   name: "🪄✨ Explore the Magical World of React Development with React Hookstate! 🪄✨",
-  // },
-  // {
-  //   component: Day8,
-  //   name: "🚀✨ Discover the Future of State Management with React Recoil! 🚀✨",
-  // },
-  // {
-  //   component: Day9,
-  //   name: "🪐⚡ Explore the React Universe with React Jotai: A Dynamic Force in State Management! ⚛️🪐",
-  // },
-  // {
-  //   component: Day10,
-  //   name: "🛡️⚔️ Harness the Power of React Rematch: Your Trusty Ally in State Management Battles! ⚛️🛡️",
-  // },
-  // {
-  //   component: Day11,
-  //   name: "🎨✨ Mastering Animation Magic with React Framer Motion! ✨🎨",
-  // },
-  // {
-  //   component: Day12,
-  //   name: "🎨🧰 Crafting Stunning Interfaces with Material-UI! 🧰🎨",
-  // },
-  // {
-  //   component: Day13,
-  //   name: "🎨🔮 Weaving Visual Enchantment with Styled-components! 🔮🎨",
-  // },
-  // {
-  //   component: Day14,
-  //   name: "🎨🏛️ Crafting Majestic Interfaces with Ant Design! 🏛️🎨",
-  // },
-  // {
-  //   component: Day15,
-  //   name: "🎨🛡️ Crafting Beautiful and Accessible UIs with Chakra UI! 🛡️🎨",
-  // },
-  // {
-  //   component: Day16,
-  //   name: "Unleash the Data Dragon with Axios! 🐉",
-  // },
-  // {
-  //   component: Day17,
-  //   name: " 🚀 Elevate Your Data Management Game with React Query! 🚀",
-  // },
-  // {
-  //   component: Day18,
-  //   name: "   ✨ Synchronize Your Data Seamlessly with SWR! ✨",
-  // },
-  // {
-  //   component: Day19,
-  //   name: " 📋 Craft Forms with Ease Using Formik! 📋",
-  // },
-  // {
-  //   component: Day20,
-  //   name: "  📜 Validate Forms Gracefully with Yup! 📜",
-  // },
-  // {
-  //   component: Day21,
-  //   name: "📊🎨 Mastering Data Visualization with Chart.js! 🎨📊",
-  // },
-  // {
-  //   component: Day22,
-  //   name: "Dive into the Art of Visualization with D3.js! 🎨",
-  // },
-  // {
-  //   component: Day23,
-  //   name: "Reinvent Your Charts with Recharts! 📊",
-  // },
-  // {
-  //   component: Day24,
-  //   name: "Achieve Victory with React Data Visualization! 🏆",
-  // },
-  // {
-  //   component: Day25,
-  //   name: "Zoom into Data with React-Vis! 🔍",
-  // },
-  // {
-  //   component: Day26,
-  //   name: "Zoom into Data with React-Vis! 🔍",
-  // },
-  // {
-  //   component: Day27,
-  //   name: "Zoom into Data with React-Vis! 🔍",
-  // },
-  // {
-  //   component: Day28,
-  //   name: "Zoom into Data with React-Vis! 🔍",
-  // },
+  {
+    component: Day1,
+    name: "🚀 Navigating the Digital Universe with React Router 🌌",
+  },
+  {
+    component: Day2,
+    name: "🎨 Welcome to the World of React Icons! 🚀",
+  },
+  {
+    component: Day3,
+    name: "🎭🌟 Welcome to the grand theater of web development, where React Helmet takes center stage as the master costume designer! 🌟🎭",
+  },
+  {
+    component: Day4,
+    name: "🪄✨ Welcome to the enchanted world of React Bootstrap! 🪄✨",
+  },
+  {
+    component: Day5_test,
+    name: "🛡️ Welcome to the Realm of React Testing Library! 🛡️",
+  },
+  {
+    component: Day6,
+    name: "🎵 The React Redux Symphony: Achieving State Management Harmony 🎵",
+  },
+  {
+    component: Day7,
+    name: "🪄✨ Explore the Magical World of React Development with React Hookstate! 🪄✨",
+  },
+  {
+    component: Day8,
+    name: "🚀✨ Discover the Future of State Management with React Recoil! 🚀✨",
+  },
+  {
+    component: Day9,
+    name: "🪐⚡ Explore the React Universe with React Jotai: A Dynamic Force in State Management! ⚛️🪐",
+  },
+  {
+    component: Day10,
+    name: "🛡️⚔️ Harness the Power of React Rematch: Your Trusty Ally in State Management Battles! ⚛️🛡️",
+  },
+  {
+    component: Day11,
+    name: "🎨✨ Mastering Animation Magic with React Framer Motion! ✨🎨",
+  },
+  {
+    component: Day12,
+    name: "🎨🧰 Crafting Stunning Interfaces with Material-UI! 🧰🎨",
+  },
+  {
+    component: Day13,
+    name: "🎨🔮 Weaving Visual Enchantment with Styled-components! 🔮🎨",
+  },
+  {
+    component: Day14,
+    name: "🎨🏛️ Crafting Majestic Interfaces with Ant Design! 🏛️🎨",
+  },
+  {
+    component: Day15,
+    name: "🎨🛡️ Crafting Beautiful and Accessible UIs with Chakra UI! 🛡️🎨",
+  },
+  {
+    component: Day16,
+    name: "Unleash the Data Dragon with Axios! 🐉",
+  },
+  {
+    component: Day17,
+    name: " 🚀 Elevate Your Data Management Game with React Query! 🚀",
+  },
+  {
+    component: Day18,
+    name: "   ✨ Synchronize Your Data Seamlessly with SWR! ✨",
+  },
+  {
+    component: Day19,
+    name: " 📋 Craft Forms with Ease Using Formik! 📋",
+  },
+  {
+    component: Day20,
+    name: "  📜 Validate Forms Gracefully with Yup! 📜",
+  },
+  {
+    component: Day21,
+    name: "📊🎨 Mastering Data Visualization with Chart.js! 🎨📊",
+  },
+  {
+    component: Day22,
+    name: "Dive into the Art of Visualization with D3.js! 🎨",
+  },
+  {
+    component: Day23,
+    name: "Reinvent Your Charts with Recharts! 📊",
+  },
+  {
+    component: Day24,
+    name: "Achieve Victory with React Data Visualization! 🏆",
+  },
+  {
+    component: Day25,
+    name: "Zoom into Data with React-Vis! 🔍",
+  },
+  {
+    component: Day26,
+    name: "🌐 WebSocket: Real-Time Communication at Warp Speed!",
+  },
+  {
+    component: Day27,
+    name: "🔥 Firebase: Sparking Real-Time Data Sorcery! 🔮",
+  },
+  {
+    component: Day28,
+    name: "Unleash the Superhero of API Queries with GraphQL! ⚡",
+  },
   {
     component: Day29,
-    name: "Zoom into Data with React-Vis! 🔍",
+    name: "Blast Off with React Query: Elevating Data Fetching to New Heights! 🚀",
   },
   // Add more components here if needed
 ];
